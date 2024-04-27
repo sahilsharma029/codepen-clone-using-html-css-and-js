@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+    box-sizing: border-box;
+}
+
+body{
+    background: #454545;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+}
+
+.left, .right{
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+textarea{
+    width: 100%;
+    height: 28%;
+    background-color: #1f1f1f;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+iframe{
+    width: 100%;
+    height: 95%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+label i{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    background: black;
+    height: 30px;
+}
